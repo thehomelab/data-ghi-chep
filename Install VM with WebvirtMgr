@@ -1,6 +1,6 @@
-#Install VM with WebvirtMgr
+# Install VM with WebvirtMgr
 
-##1. Setup host
+## 1. Setup host
 - Script 
 ```sh
 yum install epel-release -y
@@ -122,7 +122,7 @@ sudo service supervisord restart
 
 ```
 
-##Install KVM host
+## Install KVM host
 
 -Script
 ```sh
@@ -132,7 +132,7 @@ systemctl start libvirtd
 systemctl enable libvirtd
 
 ```
-##Create VM on web
+## Create VM on web
 - Login & Create Connect
 https://imgur.com/fPy3Rog
 - Create Storage
@@ -153,4 +153,4 @@ https://imgur.com/Pyu5Fan
 https://imgur.com/mC1uXfs
 
 
-####By Hoang Nhu Anh
+#### By Hoang Nhu Anh
